@@ -13,5 +13,5 @@ One of the most popular activities on the Web is shopping. It has much allure in
 While ecommerce has an access to global markets fulfilling costumers’ fashion needs worldwide, there can be lack of security, reliability leading to increasing returns, reverse pickup cost, etc leading to huge loss. Wrong size and fit is the top reason for returning of merchandise bought online leading to increased added cost, clash of fashion and tech.
 To tackle with this problem we have devised a [solution](https://github.com/Arpita-25/Invincible-Myntra/tree/main/Round%201).
 
-
+Our idea mainly focuses on three key features: **Size Recommendation based on body measurements given by user**, **Virtual cloth fitting** and **cloth recommendation according to skin-tone** which would surely improve an user's overall experience while surfing through different products on an online fashion store. These three techniques have been successfully implemented in an Web-App whose front-end is built using **React JS** framework and python based **Flask** framework is being used for backend. 
 
