@@ -44,3 +44,6 @@ The overall flow of the working of skin tone detection model has been shown belo
 ![skinn](https://user-images.githubusercontent.com/64279181/114277941-04e0d400-9a4b-11eb-9258-71905019a0c9.png)
 
 The detailed technical explanation can be referred from this [video](https://github.com/Arpita-25/Invincible-Myntra/blob/main/Round%202/NITRourkela_Invincible_SKIN_TONE.mp4).
+
+
+**This marks the end of our implementation of our Virtual Try-On module**
