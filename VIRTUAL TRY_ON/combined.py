@@ -5,7 +5,7 @@ import numpy as np
 import file_w
 import evaluate_pose_JPPNet_s2
 import evaluate_parsing_JPPNet_s2
-from v2 import *
+from test import *
 import json
 
 def JPPNet_wrapper():
