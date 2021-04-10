@@ -47,3 +47,4 @@ The detailed technical explanation can be referred from this [video](https://git
 
 
 **This marks the end of our implementation of our Virtual Try-On module**
+**Thank you for your patience!**
