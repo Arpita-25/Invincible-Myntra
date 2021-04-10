@@ -17,4 +17,4 @@ Our idea mainly focuses on three key features: **Size Recommendation based on bo
 
 ![react-and-flask](https://user-images.githubusercontent.com/64279181/114270858-3a29f980-9a2c-11eb-8c07-b51096682a27.png)
 
-The UI has been built in such a way that it has a clean interface, easy navigation, clear visibilty and good legibility such that the user's overall experience can be improved. The overall design of the web application and the live demo has been explained in this [video](https://github.com/Arpita-25/Invincible-Myntra/blob/main/Round%202/NITRourkela_Invincible_LIVE_DEMO.mp4).
+The UI has been built in such a way that it has a **clean interface**, **easy navigation**, **clear visibilty** and **good legibility** such that the user's overall experience can be improved. The overall design of the web application and the live demo has been explained in this [video](https://github.com/Arpita-25/Invincible-Myntra/blob/main/Round%202/NITRourkela_Invincible_LIVE_DEMO.mp4).
