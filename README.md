@@ -22,7 +22,17 @@ The UI has been built in such a way that it has a **clean interface**, **easy na
 ## 1. SIZE RECOMMENDATION
 After the user uploads his/her photo, the user is asked to input body measurements like chest size, shoulder length and frontal body length.
 
-Based on the body meaesurements, size of the cloth is predicted by comparing to the available sizes in the database and returns the best matching size and accordingly displaying the options.
+Based on the body meaesurements, size of the cloth is predicted by comparing to the available sizes in the database and returns the best matching size and accordingly displays the recommended size after an apparel is chosen.
 For detailed explanation of our size recommendation module, please refer the [video](https://github.com/Arpita-25/Invincible-Myntra/blob/main/Round%202/NITRourkela_Invincible_INTRO.mp4).
 
 ![size](https://user-images.githubusercontent.com/64279181/114277206-ddd4d300-9a47-11eb-9989-cfed4f6f7dcc.png)
+
+## 2. VIRTUAL TRY-ON
+After selecting a particular apparel and after the size is recommended, the selected apparel is fitted on to the user's uploaded image as if the user is virtually trying on the cloth.
+Moving on to the technical details, we are first wrapping the selected cloth in the manner of the dress worn by the user in that photo and then fitting it over his/her image in order to give a feeling of virtual try-on. The first part is called as GMM(Geometric Matching Module) and the second part is TOM(Try-ON Module).
+The overall flow of the virtual Try-on is shown below.
+
+![try](https://user-images.githubusercontent.com/64279181/114277633-90f1fc00-9a49-11eb-9e2f-d3f6cc4ef9d8.png)
+
+The detailed technical explanation can be referred from this [video](https://github.com/Arpita-25/Invincible-Myntra/blob/main/Round%202/NITRourkela_Invincible_VIRTUAL_TRY-ON.mp4).
+
