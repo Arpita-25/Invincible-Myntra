@@ -24,3 +24,5 @@ After the user uploads his/her photo, the user is asked to input body measuremen
 
 Based on the body meaesurements, size of the cloth is predicted by comparing to the available sizes in the database and returns the best matching size and accordingly displaying the options.
 For detailed explanation of our size recommendation module, please refer the [video](https://github.com/Arpita-25/Invincible-Myntra/blob/main/Round%202/NITRourkela_Invincible_INTRO.mp4).
+
+![size](https://user-images.githubusercontent.com/64279181/114277206-ddd4d300-9a47-11eb-9989-cfed4f6f7dcc.png)
