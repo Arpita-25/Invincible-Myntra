@@ -1,0 +1,346 @@
+const dark_products = [
+  {
+    brand: "Lee Cooper",
+    category: {
+      id: 1,
+      name: "T-Shirts",
+    },
+    category_id: 1,
+    description: "Women's blue t-shirt",
+    details: [
+      {
+        id: 25,
+        quantity: 30,
+        size: "XL",
+      },
+      {
+        id: 26,
+        quantity: 30,
+        size: "L",
+      },
+      {
+        id: 27,
+        quantity: 30,
+        size: "M",
+      },
+      {
+        id: 28,
+        quantity: 30,
+        size: "S",
+      },
+    ],
+    discount: 35,
+    id: 7,
+    image: process.env.PUBLIC_URL + "../../.././required_images/light_cloth/000143_1.jpg",
+    product_name: "T-Shirt",
+    product_rating: null,
+    product_review: null,
+    regular_price: 2800,
+  },
+  {
+    brand: "Lee Cooper",
+    category: {
+      id: 1,
+      name: "T-Shirts",
+    },
+    category_id: 1,
+    description: "Women's blue t-shirt",
+    details: [
+      {
+        id: 25,
+        quantity: 30,
+        size: "XL",
+      },
+      {
+        id: 26,
+        quantity: 30,
+        size: "L",
+      },
+      {
+        id: 27,
+        quantity: 30,
+        size: "M",
+      },
+      {
+        id: 28,
+        quantity: 30,
+        size: "S",
+      },
+    ],
+    discount: 35,
+    id: 7,
+    image: process.env.PUBLIC_URL + "../../.././required_images/light_cloth/001173_1.jpg",
+    product_name: "T-Shirt",
+    product_rating: null,
+    product_review: null,
+    regular_price: 2800,
+  },
+  {
+    brand: "Lee Cooper",
+    category: {
+      id: 1,
+      name: "T-Shirts",
+    },
+    category_id: 1,
+    description: "Women's blue t-shirt",
+    details: [
+      {
+        id: 25,
+        quantity: 30,
+        size: "XL",
+      },
+      {
+        id: 26,
+        quantity: 30,
+        size: "L",
+      },
+      {
+        id: 27,
+        quantity: 30,
+        size: "M",
+      },
+      {
+        id: 28,
+        quantity: 30,
+        size: "S",
+      },
+    ],
+    discount: 35,
+    id: 7,
+    image: process.env.PUBLIC_URL + "../../.././required_images/light_cloth/001614_1.jpg",
+    product_name: "T-Shirt",
+    product_rating: null,
+    product_review: null,
+    regular_price: 2800,
+  },
+  {
+    brand: "Lee Cooper",
+    category: {
+      id: 1,
+      name: "T-Shirts",
+    },
+    category_id: 1,
+    description: "Women's blue t-shirt",
+    details: [
+      {
+        id: 25,
+        quantity: 30,
+        size: "XL",
+      },
+      {
+        id: 26,
+        quantity: 30,
+        size: "L",
+      },
+      {
+        id: 27,
+        quantity: 30,
+        size: "M",
+      },
+      {
+        id: 28,
+        quantity: 30,
+        size: "S",
+      },
+    ],
+    discount: 35,
+    id: 7,
+    image: process.env.PUBLIC_URL + "../../.././required_images/light_cloth/002200_1.jpg",
+    product_name: "T-Shirt",
+    product_rating: null,
+    product_review: null,
+    regular_price: 2800,
+  },
+  {
+    brand: "Lee Cooper",
+    category: {
+      id: 1,
+      name: "T-Shirts",
+    },
+    category_id: 1,
+    description: "Women's blue t-shirt",
+    details: [
+      {
+        id: 25,
+        quantity: 30,
+        size: "XL",
+      },
+      {
+        id: 26,
+        quantity: 30,
+        size: "L",
+      },
+      {
+        id: 27,
+        quantity: 30,
+        size: "M",
+      },
+      {
+        id: 28,
+        quantity: 30,
+        size: "S",
+      },
+    ],
+    discount: 35,
+    id: 7,
+    image: process.env.PUBLIC_URL + "../../.././required_images/light_cloth/002561_1.jpg",
+    product_name: "T-Shirt",
+    product_rating: null,
+    product_review: null,
+    regular_price: 2800,
+  },
+  {
+    brand: "Lee Cooper",
+    category: {
+      id: 1,
+      name: "T-Shirts",
+    },
+    category_id: 1,
+    description: "Women's blue t-shirt",
+    details: [
+      {
+        id: 25,
+        quantity: 30,
+        size: "XL",
+      },
+      {
+        id: 26,
+        quantity: 30,
+        size: "L",
+      },
+      {
+        id: 27,
+        quantity: 30,
+        size: "M",
+      },
+      {
+        id: 28,
+        quantity: 30,
+        size: "S",
+      },
+    ],
+    discount: 35,
+    id: 7,
+    image: process.env.PUBLIC_URL + "../../.././required_images/light_cloth/003016_1.jpg",
+    product_name: "T-Shirt",
+    product_rating: null,
+    product_review: null,
+    regular_price: 2800,
+  },
+  {
+    brand: "Lee Cooper",
+    category: {
+      id: 1,
+      name: "T-Shirts",
+    },
+    category_id: 1,
+    description: "Women's blue t-shirt",
+    details: [
+      {
+        id: 25,
+        quantity: 30,
+        size: "XL",
+      },
+      {
+        id: 26,
+        quantity: 30,
+        size: "L",
+      },
+      {
+        id: 27,
+        quantity: 30,
+        size: "M",
+      },
+      {
+        id: 28,
+        quantity: 30,
+        size: "S",
+      },
+    ],
+    discount: 35,
+    id: 7,
+    image: process.env.PUBLIC_URL + "../../.././required_images/light_cloth/003086_1.jpg",
+    product_name: "T-Shirt",
+    product_rating: null,
+    product_review: null,
+    regular_price: 2800,
+  },
+  {
+    brand: "Lee Cooper",
+    category: {
+      id: 1,
+      name: "T-Shirts",
+    },
+    category_id: 1,
+    description: "Women's blue t-shirt",
+    details: [
+      {
+        id: 25,
+        quantity: 30,
+        size: "XL",
+      },
+      {
+        id: 26,
+        quantity: 30,
+        size: "L",
+      },
+      {
+        id: 27,
+        quantity: 30,
+        size: "M",
+      },
+      {
+        id: 28,
+        quantity: 30,
+        size: "S",
+      },
+    ],
+    discount: 35,
+    id: 7,
+    image: process.env.PUBLIC_URL + "../../.././required_images/light_cloth/003150_1.jpg",
+    product_name: "T-Shirt",
+    product_rating: null,
+    product_review: null,
+    regular_price: 2800,
+  },
+  {
+    brand: "Lee Cooper",
+    category: {
+      id: 1,
+      name: "T-Shirts",
+    },
+    category_id: 1,
+    description: "Women's blue t-shirt",
+    details: [
+      {
+        id: 25,
+        quantity: 30,
+        size: "XL",
+      },
+      {
+        id: 26,
+        quantity: 30,
+        size: "L",
+      },
+      {
+        id: 27,
+        quantity: 30,
+        size: "M",
+      },
+      {
+        id: 28,
+        quantity: 30,
+        size: "S",
+      },
+    ],
+    discount: 35,
+    id: 7,
+    image: process.env.PUBLIC_URL + "../../.././required_images/light_cloth/003077_1.jpg",
+    product_name: "T-Shirt",
+    product_rating: null,
+    product_review: null,
+    regular_price: 2800,
+  }
+];
+
+export default dark_products;

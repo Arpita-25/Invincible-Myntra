@@ -1,0 +1,52 @@
+.btn-box-btn {
+	 padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;;
+	border:0;
+	outline: none;
+	position: relative;
+	color: black;
+	width:130px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+.btn-box{
+	width:260px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px rgb(255 65 108 / 0.15);
+	border-radius: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+#btn-color{
+	top:0;
+	left:0;
+	position: absolute;
+	width: 130px;
+	height: 100%;
+	background: #ff416c;
+	border-radius:30px;
+	transition: 0.5s;
+}
+
+.authContainer.right-panel-active .btn-box #btn-color{
+	left: 130px;
+}
+
+@media(min-width:768px){
+	.btn-box{
+		display: none;
+	}
+}

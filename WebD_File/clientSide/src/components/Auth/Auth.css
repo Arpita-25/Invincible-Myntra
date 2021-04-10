@@ -1,0 +1,231 @@
+
+.overlay-container{
+    display: none;
+}
+.formContainer button {
+    border-radius: 20px;
+    border: 1px solid #cc2770;
+    background-color: #cc2770;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.formContainer button:active {
+    transform: scale(0.95);
+}
+
+.formContainer button:focus {
+    outline: none;
+}
+
+ button.ghost {
+    border-radius: 20px;
+    border: 1px solid #cc2770;
+    background-color: #cc2770;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    background-color: transparent;
+    border-color: #ffffff;
+}
+
+
+.authContainer{
+    margin:0 auto;
+	margin-top: 3rem;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+				0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	width: 87%;
+	min-height: 400px;
+	overflow-x: hidden;
+}
+
+.formContainer{
+    position: absolute;
+    /* width: 100%; */
+    z-index: 1;
+    text-align: center;
+    transition:0.5s;
+    /* height:100% */
+}
+
+
+.formContainer button{
+    margin-top: 1rem;
+    display: block;
+    margin: 1rem auto;
+}
+
+.formContainer h1{
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.formContainer input{
+    display: block;
+    background-color: #eee;
+    border: none;
+    outline:none;
+    padding: 12px 15px;
+    margin: 8px auto;
+    width: 80%;
+
+}
+
+@media(min-width:768px){
+    .authContainer {
+        overflow: hidden;
+        width: 768px;
+        max-width: 100%;
+        min-height: 480px;
+        margin: 7rem auto 0;
+    }
+    
+
+    .formContainer{
+        position: absolute;
+        /* width: 100%; */
+        z-index: 1;
+        /* text-align: center; */
+        /* transition:0.5s; */
+        height:100%
+    }
+
+
+    
+    .overlay-container {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+        transition: transform 0.6s ease-in-out;
+        z-index: 100;
+    }
+    
+    .authContainer.right-panel-active .overlay-container {
+        transform: translateX(-100%);
+    }
+    
+    .overlay {
+        background: url('../../assets/signup.jpg');
+        background-size: cover;
+        background-position: 0 0;
+        color: #ffffff;
+        position: relative;
+        left: -100%;
+        height: 100%;
+        width: 200%;
+        transform: translateX(0);
+        transition: transform 0.6s ease-in-out;
+    }
+    
+    .authContainer.right-panel-active .overlay {
+        transform: translateX(50%);
+    }
+    
+    .overlay-panel {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 40px;
+        text-align: center;
+        top: 0;
+        height: 100%;
+        width: 50%;
+        transform: translateX(0);
+        transition: transform 0.6s ease-in-out;
+    }
+    
+    .overlay-left {
+        transform: translateX(-20%);
+    }
+    
+    .authContainer.right-panel-active .overlay-left {
+        transform: translateX(0);
+    }
+    
+    .overlay-right {
+        right: 0;
+        transform: translateX(0);
+    }
+    
+    .authContainer.right-panel-active .overlay-right {
+        transform: translateX(20%);
+    }
+    
+    
+    .authContainer h1 {
+        font-weight: bold;
+        margin: 0;
+        
+    }
+    
+    .authContainer p {
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        margin: 20px 0 30px;
+    }
+    
+    .authContainer span {
+        font-size: 12px;
+    }
+    
+    .authContainer a {
+        color: #333;
+        font-size: 14px;
+        text-decoration: none;
+        margin: 15px 0;
+    }
+    
+
+    
+    
+    .authContainer button:active {
+        transform: scale(0.95);
+    }
+    
+    .authContainer button:focus {
+        outline: none;
+    }
+    
+    .authContainer button.ghost {
+        background-color: transparent;
+        border-color: #ffffff;
+    }
+    
+    .authContainer form {
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 50px;
+        height: 100%;
+        text-align: center;
+    }
+    
+
+    
+    
+
+    
+}

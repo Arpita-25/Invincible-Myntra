@@ -1,0 +1,100 @@
+/* .webcamContainer{
+    position: relative;
+    width: fit-content;
+}
+
+.captureBtn{
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, 0);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid white;
+}
+
+img{
+    left: 0;
+    position: absolute;
+}
+
+.imageContainer{
+    width:100%;
+}
+
+.camera-icons{
+    font-size:3rem;
+    position: absolute;
+    color: white;
+    padding:10px;
+    cursor: pointer;
+}
+
+.retake{
+    left:5%;
+    bottom:5%
+}
+.save{
+    right:5%;
+    bottom:5%
+} */
+
+
+.webcam-outer-container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background: rgba(255,255,255,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000
+}
+
+.capture-btn{
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, 0);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid white;
+}
+
+.webcam-container{
+    position: relative
+}
+
+.webcam-container img{
+
+        left: 0;
+        position: absolute;
+
+}
+
+
+.camera-icons{
+    font-size:2rem;
+    position: absolute;
+    color: white;
+    padding:10px;
+    cursor: pointer;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    background:transparent
+}
+
+.retake{
+    left:5%;
+    bottom:5%
+}
+.save{
+    right:5%;
+    bottom:5%
+} 

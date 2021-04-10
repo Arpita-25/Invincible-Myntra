@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+.image-upload-options-container-wrap h1 {
+  color: white;
+  font-family: Quicksand;
+  margin-top: 2%;
+}
+
+.image-upload-options-container-wrap {
+  height: 300px;
+  width: 300px;
+  background: #cc2770;
+}
+
+.measurement-form input {
+  display: flex;
+  margin: 3% 0;
+  padding: 2% 0 2% 1%;
+  border-radius: 5px;
+  border: 0;
+  width: 40%;
+  height: 10%;
+}
+
+.submit-button {
+  font-size: 15px;
+  color: white;
+  background: #cf337e00;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 1% 2%;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.size-form-cancel-btn{
+  background-color: #cc2770;
+}
+
+@media screen and (max-width: 500px) {
+  .image-upload-options-container-wrap h1 {
+    padding: 2%;
+  }
+  .measurement-form input{
+      margin: 4% 0;
+  }
+
+  .submit-button{
+      margin-top: 4%;
+      padding-left: 5px;
+  }
+}
+

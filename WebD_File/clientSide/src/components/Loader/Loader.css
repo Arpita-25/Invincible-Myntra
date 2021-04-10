@@ -1,0 +1,26 @@
+
+.loader-container{
+    position: fixed;
+    padding: 3rem 4rem;
+    border-radius: 5px;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    border: 3px solid rgba(0,0,0,0.8);
+    transform: translate(-50%,-50%);
+    /* background-clip: padding-box; */
+    background: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.loader-text{
+    text-align: center;
+    /* margin: 1rem 0; */
+    padding: 0.5rem 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+

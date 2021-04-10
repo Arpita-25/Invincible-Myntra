@@ -1,0 +1,20 @@
+.loginContainer{
+    width:100%;
+    left: 0;
+    z-index:2;
+    transition : opacity 0.3s;
+}
+
+.authContainer.right-panel-active .loginContainer {
+    transform: translateX(-100%);
+}
+
+@media(min-width:768px){
+    .loginContainer{
+        width:50%;
+    }
+    .authContainer.right-panel-active .loginContainer {
+        transform: translateX(100%);
+    }
+    
+}
