@@ -36,3 +36,11 @@ The overall flow of the virtual Try-on is shown below.
 
 The detailed technical explanation can be referred from this [video](https://github.com/Arpita-25/Invincible-Myntra/blob/main/Round%202/NITRourkela_Invincible_VIRTUAL_TRY-ON.mp4).
 
+## 3. CLOTH RECOMMENDATION BASED ON SKIN TONE OF USER.
+The skin tone detection module first extracts the skin portion from the user's uploaded image.
+Then it passes the filtered image to the function which ultimately detects the skin tone of the user using **K means clustering** algorithm of Machine Learning.
+The overall flow of the working of skin tone detection model has been shown below.
+
+![skinn](https://user-images.githubusercontent.com/64279181/114277941-04e0d400-9a4b-11eb-9258-71905019a0c9.png)
+
+The detailed technical explanation can be referred from this [video](https://github.com/Arpita-25/Invincible-Myntra/blob/main/Round%202/NITRourkela_Invincible_SKIN_TONE.mp4).
