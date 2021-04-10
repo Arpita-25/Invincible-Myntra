@@ -15,3 +15,4 @@ To tackle with this problem we have devised a [solution](https://github.com/Arpi
 
 Our idea mainly focuses on three key features: **Size Recommendation based on body measurements given by user**, **Virtual cloth fitting** and **cloth recommendation according to skin-tone** which would surely improve an user's overall experience while surfing through different products on an online fashion store. These three techniques have been successfully implemented in an Web-App whose front-end is built using **React JS** framework and python based **Flask** framework is being used for backend. 
 
+![react-and-flask](https://user-images.githubusercontent.com/64279181/114270858-3a29f980-9a2c-11eb-8c07-b51096682a27.png)
